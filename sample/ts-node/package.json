@@ -1,0 +1,29 @@
+{
+  "name": "bbs-signatures-sample",
+  "version": "1.0.0",
+  "description": "A sample for using bbs-signatures",
+  "repository": "https://github.com/mattrglobal/bbs-signatures",
+  "author": "Mattr Limited",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "server": "ts-node ./src/server.ts",
+    "publisher": "ts-node ./src/publisher.ts",
+    "suba": "ts-node ./src/subA.ts",
+    "subb": "ts-node ./src/subB.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "12.7.2",
+    "ts-node": "8.4.1",
+    "typescript": "3.7.5"
+  },
+  "dependencies": {
+    "@mattrglobal/bbs-signatures": "0.5.0",
+    "concurrently": "^7.2.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1"
+  }
+}
